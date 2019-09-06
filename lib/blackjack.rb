@@ -32,9 +32,8 @@ end
 
 def hit?(card_total)
  prompt_user
- get_user_input
+ user_input=get_user_input
   valid_input =["h", "s"]
-  user_input = get_user_input 
   if valid_input include? (user_input)
     prompt_user 
   else 
