@@ -43,7 +43,7 @@ end
 end
 
 def invalid_command
-  puts "sorry, not a valid command"
+  puts "Sorry, not a valid command"
   
 end
 
