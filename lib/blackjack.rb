@@ -40,7 +40,7 @@ def hit?(card_total)
      prompt_user
    end
    end
-end 
+
 
 
 
