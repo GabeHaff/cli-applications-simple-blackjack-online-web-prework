@@ -32,9 +32,12 @@ end
 
 def hit?(card_total)
   valid_input =["h", "s"]
-  prompt_user
   user_input = get_user_input 
   if valid_input ? user_input 
+    prompt_user 
+  else 
+    invalid_command
+    prompt_user
   
    end
 end 
