@@ -42,6 +42,7 @@ end
 
 
 def invalid_command
+puts "Sorry, not a valid command"
 end
 
 #####################################################
