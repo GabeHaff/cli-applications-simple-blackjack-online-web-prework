@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
-  puts get
+  puts gets.chomp.strip 
 end
 
 def end_game
