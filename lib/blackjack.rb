@@ -31,15 +31,7 @@ first_round
 end 
 
 def hit?(card_total)
- prompt_user
- user_input=get_user_input
-  valid_input =["h", "s"]
-  if valid_input include? (user_input)
-    prompt_user 
-  else 
-    invalid_command
-    prompt_user
-  
+ 
    end
 end 
 
