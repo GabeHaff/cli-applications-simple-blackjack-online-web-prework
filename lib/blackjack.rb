@@ -38,7 +38,7 @@ def hit?(card_total)
     elsif user_input == "s"
     card_total
   else 
-    invalid_command
+  return  invalid_command
   end
 end 
 end 
@@ -47,7 +47,7 @@ def invalid_command
 puts "Sorry, not a valid command"
 get_user_input 
 end
-end
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
