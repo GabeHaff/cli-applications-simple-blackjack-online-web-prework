@@ -31,8 +31,10 @@ first_round
 end 
 
 def hit?(card_total)
+  valid_input =["h", "s"]
   prompt_user
   user_input = get_user_input 
+  
   
    end
 end 
