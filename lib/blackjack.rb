@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(card_total())
-  expect($stdout).to receive(:puts).with "your cards add up to #{card total}"
+  
   
 end
 
